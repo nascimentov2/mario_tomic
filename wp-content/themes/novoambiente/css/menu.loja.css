@@ -1,0 +1,72 @@
+#topo-hm form#main-search 
+{
+    display: none !important;
+}
+#topo-hm nav.topmenu ul.top 
+{
+	margin-left: 0em; 
+}
+#topo-hm nav.topmenu ul.socialnet  {
+	margin-right: 3.25em;
+}
+#topo-hm nav.topmenu .socialnet .fb 
+{ 
+	background: url(http://design.novoambiente.com/wp-content/themes/novoambiente/img/fb_lo
+go.png) no-repeat; 
+
+}
+#topo-hm nav.topmenu .socialnet .insta 
+{ 
+	background: url(http://design.novoambiente.com/wp-content/themes/novoambiente/img/insta
+_logo.png) no-repeat; 
+}
+#topo-hm nav.topmenu .socialnet .gplus 
+{ 
+	background: url(http://design.novoambiente.com/wp-content/themes/novoambiente/img/gplus
+_logo.png) no-repeat; 
+}
+#topo-hm .mainhead #logo {
+	padding: 0.9em 2em 0; 
+}
+#topo-hm nav.mainmenu ul 
+{
+	padding-right: 0px; 
+}
+#topo-hm .wrap 
+{
+	min-width: 980px; 
+	max-width: 1200px; 
+}
+#topo-hm .mainhead 
+{ 
+	min-width: 980px; 
+}
+
+
+@media screen and (max-width: 1024px) 
+{
+	#topo-hm nav.topmenu ul.socialnet 
+ 	{ 
+ 		margin-right: 1em; 
+ 	}
+ 	#topo-hm .mainhead #logo 
+	{
+		padding: 0.9em 2em 0;
+	} 
+} 
+/*
+@media screen and (max-width: 768px) 
+{
+	    #topo-hm nav.topmenu ul.socialnet 
+	    { 
+	    		display: block !important;
+	    }
+} 
+*/
+
+
+
+
+
+
+

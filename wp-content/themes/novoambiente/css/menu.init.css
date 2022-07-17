@@ -1,0 +1,290 @@
+html, body, nav
+{
+    margin: 0;
+    padding: 0;
+}
+
+#topo-hm nav, #topo-hm header
+{
+    display: block;
+}
+
+/*==============First=Navbar===============*/
+
+#topo-hm
+{
+    font: normal 13px/1.75em open-sans, arial, sans-serif;
+}
+
+#topo-hm nav.topmenu
+{
+    position: relative;
+    font-family: open-sans, arial, sans-serif;
+    background-color: #e8e8e8;
+    border-bottom: 1px solid #d6d6d6;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#topo-hm nav.topmenu ul.top
+{
+    margin: 0;
+    margin-left: 2em;
+    padding: 0.4em 2em;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+#topo-hm nav.topmenu ul.top li
+{
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 12px;
+    border-right: 1px solid #c0c0c0;
+    padding-right: 13px;
+}
+
+#topo-hm nav.topmenu a:link, #topo-hm nav.topmenu a:visited
+{
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#topo-hm nav.topmenu a:hover, #topo-hm nav.topmenu a:active
+{
+    text-decoration: underline;
+}
+
+#topo-hm nav.topmenu ul.top li.last
+{
+    border: none;
+}
+
+#topo-hm nav.topmenu ul.socialnet
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    white-space: nowrap;
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 1em;
+    padding: 0.5em;
+    
+    /*-webkit-transition: opacity 0.25s linear;
+    -moz-transition: opacity 0.25s linear;
+    -ms-transition: opacity 0.25s linear;
+    -o-transition: opacity 0.25s linear;
+    transition: opacity 0.25s linear;*/
+}
+
+#topo-hm nav.topmenu .socialnet li 
+{
+    display: inline-block;
+    margin-right: 0.35em;
+}
+
+#topo-hm nav.topmenu .socialnet li.icon a 
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 22px;
+    height: 22px;
+    text-indent: 100%;
+}
+
+#topo-hm nav.topmenu .socialnet .blog
+{
+    position: absolute;
+    left: -3.5em;
+    top: 0.5em;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#topo-hm nav.topmenu .socialnet .selected
+{
+    text-decoration: underline;
+}
+
+#topo-hm nav.topmenu .socialnet .fb
+{
+    background: url(../img/fb_logo.png) no-repeat;
+}
+
+#topo-hm nav.topmenu .socialnet .insta
+{
+    background: url(../img/insta_logo.png) no-repeat;
+}
+
+#topo-hm nav.topmenu .socialnet .gplus
+{
+    background: url(../img/gplus_logo.png) no-repeat;
+}
+
+/*==============Second=Navbar===============*/
+
+#topo-hm nav.mainmenu
+{
+    margin:0;
+    padding:0;
+    font-family: open-sans, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 2.2em;
+    text-align: right;
+}
+
+#topo-hm .mainhead #logo
+{
+    margin:0;
+    margin-top: 0;
+    padding:0;
+    float: left;
+    padding: 0.45em 2.035em 0;
+}
+
+#topo-hm .mainhead #logo img 
+{
+    width: 121px;
+}
+
+#topo-hm nav.mainmenu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    
+    
+    /*-webkit-transition: opacity 0.25s linear;
+    -moz-transition: opacity 0.25s linear;
+    -ms-transition: opacity 0.25s linear;
+    -o-transition: opacity 0.25s linear;
+    transition: opacity 0.25s linear;*/
+}
+
+#topo-hm nav.mainmenu ul li
+{
+    display: inline-block;
+    margin-right: 37px;
+    text-transform: uppercase;
+    padding-top: .35em;
+    vertical-align: top;
+}
+
+#topo-hm nav.mainmenu ul li.hide-mobile
+{
+    display: none;
+}
+
+#topo-hm .mainmenu a, .mainmenu a:link, .mainmenu a:visited
+{
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+#topo-hm .mainmenu a:hover, .mainmenu a:active
+{
+    color: #000;
+    border-bottom: 0.25em solid #E0E0E0;
+}
+
+#topo-hm .mainmenu .selected a, .selected a:hover, selected a:active
+{
+    color: black;
+    border-bottom: 0.25em solid #e92724;
+}
+
+#topo-hm form#main-search 
+{
+    background: url(../img/search_btn.png) no-repeat 98% 6px;
+    
+    white-space: nowrap;
+    border: solid 1px #cccccc;
+    border-radius: 1px;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+#topo-hm form#main-search input[type=text]
+{
+    font-size: 13px;
+    padding: 0 4px;
+    margin-right: 22px;
+}
+
+#topo-hm #main-search #search-btn
+{
+    background: none;
+    outline: none;
+    width: 2em;
+    height: 2.2em;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    /*-webkit-transition: opacity 0.25s linear;
+    -moz-transition: opacity 0.25s linear;
+    -ms-transition: opacity 0.25s linear;
+    -o-transition: opacity 0.25s linear;
+    transition: opacity 0.25s linear;*/
+}
+
+#topo-hm #main-search #search-box
+{
+    font-family: open-sans, arial, sans-serif;
+    font-style: italic;
+    height: 2em;
+    border: none;
+    outline: none;
+    
+    /*-webkit-transition: opacity 0.25s linear;
+    -moz-transition: opacity 0.25s linear;
+    -ms-transition: opacity 0.25s linear;
+    -o-transition: opacity 0.25s linear;
+    transition: opacity 0.25s linear;*/
+}
+
+#topo-hm input#mobile_btn
+{
+    display: none;
+}
+
+#topo-hm #mbt
+{
+    display: none;
+}
+
+/*===================Page==================*/
+
+body
+{
+    background-color: #888888;
+}
+
+#topo-hm .wrap
+{
+    min-width: 16em;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0;
+}
+
+#topo-hm .tophead
+{
+    background-color: #e8e8e8;
+}
+
+#topo-hm .mainhead
+{
+    background-color: white;
+} 
